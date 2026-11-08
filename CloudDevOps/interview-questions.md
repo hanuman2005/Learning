@@ -12,8 +12,8 @@ A practice bank for the 30-day Cloud DevOps course in this folder. Use it after 
 
 ## Related notes outside this course
 
-- Azure, nginx and pm2 are covered in `D:\LANDED\learning\16_nginx_pm2_Azure.md`.
-- Linux in more depth is covered in `D:\LANDED\learning\03_Linux.md`.
+- Azure, nginx and pm2 are covered in [16_nginx_pm2_Azure.md](../16_nginx_pm2_Azure.md).
+- Linux in more depth is covered in [03_Linux.md](../03_Linux.md).
 
 ## Contents
 

@@ -375,4 +375,4 @@ sequenceDiagram
 
 **Tomorrow:** Day 9 — Hybrid Search & Retrieval Quality. We add keyword (BM25) retrieval, fuse it with dense search via RRF, and — crucially — learn to *measure* retrieval so you know your fixes actually help.
 
-**Apply (1 hour):** Build a minimal RAG over your own `D:\SystemDesign` notes folder. Ingest the markdown files (reuse Day 6's `markdown_chunk`), embed and store them (Day 5 + Day 7 pgvector), then implement `rag_answer_v2` with retrieve-50 → rerank-5 → cite. Ask it five real questions about your own system-design notes. For each, check: did it cite the right file/section? Did it say "I don't know" when it should? Compare answers with and without the reranker.
+**Apply (1 hour):** Build a minimal RAG over your own the `SystemDesign` folder notes folder. Ingest the markdown files (reuse Day 6's `markdown_chunk`), embed and store them (Day 5 + Day 7 pgvector), then implement `rag_answer_v2` with retrieve-50 → rerank-5 → cite. Ask it five real questions about your own system-design notes. For each, check: did it cite the right file/section? Did it say "I don't know" when it should? Compare answers with and without the reranker.

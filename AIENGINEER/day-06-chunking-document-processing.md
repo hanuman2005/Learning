@@ -331,4 +331,4 @@ if __name__ == "__main__":
 
 **Tomorrow:** Day 7 — Vector Databases. Now that you have clean, metadata-rich chunks with vectors, where do you *put* millions of them and query them fast?
 
-**Apply (1 hour):** Take one real markdown or PDF doc from your `D:\SystemDesign` notes. Run it through `markdown_chunk` (or parse the PDF with pymupdf first). Print each chunk's `section_path` and length. Then chunk the same doc three ways — fixed 1200-char, recursive 1200/150, and markdown-header — and eyeball which chunks would actually answer a real question you have about that doc. Note where each strategy cuts something important.
+**Apply (1 hour):** Take one real markdown or PDF doc from your the `SystemDesign` folder notes. Run it through `markdown_chunk` (or parse the PDF with pymupdf first). Print each chunk's `section_path` and length. Then chunk the same doc three ways — fixed 1200-char, recursive 1200/150, and markdown-header — and eyeball which chunks would actually answer a real question you have about that doc. Note where each strategy cuts something important.
